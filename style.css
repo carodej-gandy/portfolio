@@ -1,0 +1,215 @@
+h1{
+    padding-bottom: 0px;
+}
+h2{
+    color: white;
+}
+h3{
+    text-align: center;
+    width: auto;
+    padding: 0;
+}
+.profil{
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    position:absolute;
+    right: 13px;
+    top: 45px;
+}
+
+.header{
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid 5px rgb(241, 225, 8);
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+.menu{
+    text-align: center;
+}
+body{
+    background-color:rgb(4, 22, 36);
+}
+.button1{
+    background-color: rgb(255, 30, 0);
+    color: white;
+    width: 90px;
+    margin-bottom: 60px;
+    transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+.button1:hover{
+    color: rgb(255, 30, 0);
+    background-color: white;
+    border-color: rgb(255, 30, 0);
+}
+.button1:active{
+    opacity: 0.5;
+}
+.button2{
+    background-color: rgb(2, 2, 2);
+    color: orange;
+    width: 160px;
+    margin-bottom: 60px;
+    transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+.button2:hover{
+    color: rgb(2, 2, 2);
+    background-color: orange;
+    border-color: rgb(2, 2, 2);
+}
+.button2:active{
+    opacity: 0.5;
+}
+.button3{
+    background-color: rgb(21, 255, 0);
+    color: black;
+    width: 70px;
+    margin-bottom: 60px;
+    transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+.button3:hover{
+    color: rgb(21, 255, 0);
+    background-color: black;
+    border-color: rgb(21, 255, 0);
+}
+.button3:active{
+    opacity: 0.5;
+}
+.button4{
+    background-color: aqua;
+    margin-bottom: 60px;
+    transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+.button4:hover{
+    color: aqua;
+    background-color: black;
+    border-color: aqua;
+}
+.button4:active{
+    opacity: 0.5;
+}
+.button5{
+    background-color: blueviolet;
+    color: white;
+    margin-bottom: 60px;
+    transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+.button5:hover{
+    color: blueviolet;
+    background-color: white;
+    border-color: blueviolet;
+}
+.button5:active{
+    opacity: 0.5;
+}
+.button6{
+    background-color: cadetblue;
+    margin-bottom: 60px;
+    transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+.button6:hover{
+    color: cadetblue;
+    background-color: black;
+    border-color: cadetblue;
+}
+.button6:active{
+    opacity: 0.5;
+}
+.button7{
+    background-color: rgb(0, 17, 255);
+    margin-bottom: 60px;
+    transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+.button7:hover{
+    color: rgb(0, 17, 255);
+    background-color: black;
+    border-color: rgb(0, 17, 255);
+}
+.button7:active{
+    opacity: 0.5;
+}
+button{
+    margin: 10px;
+    cursor: crosshair;
+    border-color: white;
+    border-radius: 10px;
+    opacity: 1;
+    height: 30px;
+}
+.Ikona{
+    opacity: 0;
+    position: absolute;
+    right: 50px;
+    top: 150px;
+}
+.projekt1{
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    border: solid 2px lightgray;
+    width: 223px;
+    
+}
+.projekt2{
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    border: solid 2px lightgray;
+    width: 223px;
+}
+.projekt3{
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    border: solid 2px lightgray;
+    width: 223px;
+}
+.projekty{
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    margin-bottom: 30px;
+    background-color: rgb(9, 39, 61);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@media (max-width: 920px){
+    .buttons{
+        opacity: 0;
+    }
+}
+@media (max-width: 920px){
+    .Ikona{
+        opacity: 1;
+    }
+}
+.formulář{
+    display: grid;
+    background-color: rgb(141, 183, 219);
+    width: 250px;
+    justify-items: center;
+    padding-bottom: 10px;
+}
+.email{
+    height: 15px;
+    width: 200px;
+}
+.zpráva{
+    height: 20px;
+    width: 200px;
+}
+.formulář input[type="mail"]:checked + label,
+.formulář input[type="zpráva"]:checked + label {
+    display: none;
+}
+footer{
+    text-align: center;
+    padding-top: 50px;
+}
+
